@@ -41,8 +41,31 @@ img {
 	float: left; 
 	padding: 6px; 
 }
-/*example of float issues with industry-standard columns - can't get this to display correctly*/
+/*example of float problems with industry-standard columns - can't get this to display correctly*/
 
 .columnsflex {
-	display: flex; 
+	display: flex;
 }
+
+.columnsflex p {
+	padding: 6px;
+	width: 33%;
+}
+
+.gallery {
+	display: flex;
+	/*read the w3 description of this ... sort of auto-columns things*/
+	justify-content: center;
+	/*this makes the pictures center on the div it's inside*/
+	align-items: center;
+	/*if I remember correctly, this aligns them on a center baseline*/
+	flex-wrap: wrap;
+	/*this will wrap the images onto the next line after it hits the edge of the container*/
+}
+
+.gallery img {
+	height: 300px;
+}
+/*this sets the attributes for all img's under the gallery div*/
+
+
