@@ -1,0 +1,44 @@
+body {
+	margin: 0 auto;
+	max-width: 50em;
+	padding: 12px;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	line-height: 1.5;
+}
+
+h1, h2 {
+	color: #444;
+}
+
+p {
+	color: #444; 
+	text-align: justify;
+}
+
+img {
+	width: 180px;
+	margin: 10px;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.clearfix:after  {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*the content and display blocks are boilerplate, this is an empty box that clears the prior element*/
+
+/*.columns p {
+	width: 33%;
+	float: left; 
+	padding: 6px; 
+}*/
+/*example of float issues with industry-standard columns - can't get this to display correctly*/
+
