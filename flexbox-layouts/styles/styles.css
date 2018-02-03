@@ -26,6 +26,35 @@ p {
 	display: flex;
 }
 
+.side-nav, .main {
+	padding: 6px;
+}
+
+.side-nav {
+	width: 20%;
+}
+
+.side-nav ul {
+	padding: 0;
+	list-style: none;
+}
+
+.side-nav ul a {
+	color: black;
+}
+
+.side-nav ul li {
+	width: 100%;
+	text-align: center;
+	padding: 12px;
+	border: 1px solid #555;
+	box-sizing: border-box;
+}
+
+.main {
+	width: 80%;
+}
+
 .footer {
 	text-align: center;
 	height: 100px;
