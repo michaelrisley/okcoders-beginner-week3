@@ -1,6 +1,6 @@
 body {
 	margin: 0 auto;
-	max-width: 50em;
+	max-width: 70em;
 	padding: 12px;
 	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 	line-height: 1.5;
@@ -9,6 +9,27 @@ body {
 /*see the picture you took of his layout - the left and right gutters are defined by the "maxwidth" that's in the body css, then the header div is at the top and footer at bottom, then the side and the main divs are about 80/20 in the middle*/
 /*note that these days they have shortcuts: header, main, and footer tags instead of using div's that are defined as the same thing*/
 
-.header {
-	
+h1, h2, h3, h4, h5, h6	{
+	text-align: center;
 }
+
+p {
+	text-align: justify;
+}
+
+.header {
+	height: 60px; 
+	background-color: red; 
+}
+
+.content {
+	display: flex;
+}
+
+.footer {
+	text-align: center;
+	height: 100px;
+	background-color: green;
+}
+
+/*design note: for vertical people typically do px because they can control that and you can always scroll. On width they do %. */
